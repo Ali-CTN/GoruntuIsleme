@@ -1,0 +1,14 @@
+a=imread('odev.png');
+line([0,0], ylim, 'Color', 'r', 'LineWidth', 2); 
+line(xlim, [100,100], 'Color', 'g', 'LineWidth', 2); 
+{angle = 90;
+pl.Color = 'b';
+x(1) = 0;
+y(1) = 0;
+x(2) = x(1) * cosd(angle);
+y(2) = y(1) * sind(angle);
+hold on; 
+plot(x, y);
+xlim([0 0]);
+ylim([0 0]);
+imshow(a);
