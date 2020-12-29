@@ -1,0 +1,5 @@
+﻿x=rand(4,50)
+min(min(x))
+max(max(x))
+mean(mean(x))
+std(std(x))
